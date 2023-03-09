@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import QRCode from 'qrcode.react';
+import {QRCodeCanvas} from 'qrcode.react';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -10,7 +10,7 @@ root.render(
     <App />
 );
 ReactDOM.render(
-    <QRCode value="https://reactjs.org/" renderAs="canvas" />,
+    <QRCodeCanvas value="https://reactjs.org/" renderAs="canvas" />,
     document.getElementById('qr-gen')
 );
 
