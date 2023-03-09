@@ -11,7 +11,7 @@ root.render(
 );
 ReactDOM.render(
     <QRCode value="https://reactjs.org/" renderAs="canvas" />,
-    document.getElementById('mountNode')
+    document.getElementById('qr-gen')
 );
 
 // If you want to start measuring performance in your app, pass a function
