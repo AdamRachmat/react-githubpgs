@@ -718,8 +718,9 @@ html::-webkit-scrollbar-thumb{
         font-size: 14px;
      }
      .content .box-container .box .input-qr{
-        margin-top: 4rem;
+        margin-top: 5rem;
         margin-left: 1rem;
+        margin-bottom: 1rem;
         position: absolute;
         border-radius: 10px;
         width: 25%;
