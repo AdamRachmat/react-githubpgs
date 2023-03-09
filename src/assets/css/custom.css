@@ -47,7 +47,8 @@ html::-webkit-scrollbar-thumb{
 }
 .modals{
     padding: 2rem 10%;
-    padding-bottom: 2px; 
+    padding-bottom: 2px;
+    text-transform: lowercase;
 }
 .services {
     padding: 1px 10%;

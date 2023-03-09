@@ -13,7 +13,7 @@ export default class Modals extends Component{
         
         };
         async handleChange(event){
-            this.setState({kota: event.target.value});
+            this.setState({kota: event.target.value.toLowerCase()});
         };
         async handleClick(){
                 const headers = {'Content-Type': 'application/json', 'Accept': 'application/json'};
