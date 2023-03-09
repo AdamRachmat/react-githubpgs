@@ -309,7 +309,7 @@ html::-webkit-scrollbar-thumb{
     position:absolute;
     padding-top: 2rem;
     padding-left: 30rem;
-    z-index: 4;
+    z-index: 5;
  }
  .content .box-container .box .b-qrcode button{
     position: absolute;
