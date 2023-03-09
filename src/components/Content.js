@@ -33,23 +33,23 @@ export default class Content extends Component{
     <section class="content">
         <div class="box-container">
             <div class="box">
-            <h1>Interest</h1>
-                <h2>Golang</h2>
+            <h1 class="Interest">Interest</h1>
+                <h2 class="Interest">Golang</h2>
                 <div class="container">
                 <div class="skills golang"></div>
                 </div>
 
-                <h2>CSS</h2>
+                <h2 class="Interest">CSS</h2>
                 <div class="container">
                 <div class="skills css"></div>
                 </div>
 
-                <h2>JavaScript</h2>
+                <h2 class="Interest">JavaScript</h2>
                 <div class="container">
                 <div class="skills js"></div>
                 </div>
 
-                <h2>PHP</h2>
+                <h2 class="Interest">PHP</h2>
                 <div class="container">
                 <div class="skills php"></div>
                 </div>

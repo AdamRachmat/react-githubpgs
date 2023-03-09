@@ -279,14 +279,19 @@ html::-webkit-scrollbar-thumb{
     position: relative;
     object-fit:cover;
  }
+ .content .box-container .box .Interest{
+    font-size: 15px;
+ }
  .content .box-container .box .input-qr{
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
     position: absolute;
     border-radius: 10px;
     width: 20%;
     z-index: 14;
-    color: #12916f;
+    color: #3b3b3b;
     font-size: 20px;
     padding-left: 1rem;
  }
@@ -294,8 +299,9 @@ html::-webkit-scrollbar-thumb{
     position: absolute;
     padding-top: 1rem;
     padding-left: 2rem;
+    margin-bottom: 1rem;
     color: #242424;
-    
+    font-size: 15px;
  }
  .content .box-container .box .qrcode{
     max-width: 200px;
@@ -716,9 +722,9 @@ html::-webkit-scrollbar-thumb{
         margin-left: 1rem;
         position: absolute;
         border-radius: 10px;
-        width: 23%;
+        width: 25%;
         z-index: 14;
-        color: #12916f;
+        color: #000000;
         font-size: 10px;
         padding-left: 2rem;
         padding-right:1rem;
@@ -727,14 +733,14 @@ html::-webkit-scrollbar-thumb{
         position: absolute;
         padding-top: 1rem;
         padding-left: 2rem;
-        color: #ffffff;
+        color: #050505;
         font-size: 10px;
         max-width: 100px;
         padding-bottom: 1rem;
      }
      .content .box-container .box .qrcode{
-        max-width: 50px;
-        max-height: 50px;
+        max-width: 70px;
+        max-height: 70px;
         position:absolute;
         padding-top: 11rem;
         padding-left: 5rem;
@@ -744,7 +750,7 @@ html::-webkit-scrollbar-thumb{
         position: absolute;
         margin-left: 3rem;
         margin-top: 7rem;
-        background-color: #019c69;
+        background-color: #010202;
         color: #fdfffe;
         padding-left: 1rem;
         padding-right: 1rem;
