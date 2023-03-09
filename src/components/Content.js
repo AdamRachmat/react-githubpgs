@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Bg1 from '../assets/images/dddepth-311.jpg';
-import QRCode from "qrcode.react";
+import {QRCodeCanvas} from "qrcode.react";
 export default class Content extends Component{
     constructor(){
         super();
@@ -59,11 +59,11 @@ export default class Content extends Component{
                 <div class="b-qrcode">
                 <button type="button" onClick={this.downloadQrcode.bind(this)}>Download</button>
                 </div>
-                <QRCode
+                <QRCodeCanvas
                 id="qr-gen"
                 value={this.state.Qrcode}
-                size={130}
-                level={"L"}
+                bgColor={"#ffffff"}
+                level={"H"}
                 includeMargin={true}
                 class="qrcode"
                 />
